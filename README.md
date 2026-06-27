@@ -89,7 +89,7 @@ Biblioteca-2.0/
 │   ├── data.py
 │   └── functions.py
 ├── notebook/
-│   └── Biblioteca.ipynb
+│   └── Notebook_Biblioteca2.0.ipynb
 └── README.md
 ```
 
