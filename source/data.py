@@ -65,6 +65,7 @@ def load_raw(path):
     try:
         df = pd.read_csv(
             path,
+            sep=",",
             encoding="utf-8",
             on_bad_lines="skip",
             dtype={"isbn": "string", "isbn13": "string"},
