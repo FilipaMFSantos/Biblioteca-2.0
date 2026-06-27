@@ -98,9 +98,9 @@ Biblioteca-2.0/
 # Installation
 
 ``` bash
-git clone https://github.com/<your-user>/biblioteca-2.0.git
+git clone https://github.com/FilipaMFSantos/Biblioteca-2.0.git
 
-cd biblioteca-2.0
+cd Biblioteca-2.0
 
 pip install -r requirements.txt
 
@@ -127,7 +127,7 @@ Master's in Data Science Applied to Social Sciences
 
 University of Aveiro
 
-Finance • Data Analytics • Business Intelligence
+Data Analytics • Business Intelligence
 
 GitHub: https://github.com/FilipaMFSantos
 
