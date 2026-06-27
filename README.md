@@ -129,7 +129,7 @@ University of Aveiro
 
 Finance • Data Analytics • Business Intelligence
 
-GitHub: https://github.com/`<your-user>`{=html}
+GitHub: https://github.com/FilipaMFSantos
 
 ------------------------------------------------------------------------
 
