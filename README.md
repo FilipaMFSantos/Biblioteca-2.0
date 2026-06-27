@@ -1,89 +1,72 @@
 # Biblioteca 2.0
 
-> **An interactive book discovery platform built with Python and
-> Streamlit.**
+### Interactive Book Discovery Platform built with Python and Streamlit
 
-Biblioteca 2.0 is an interactive web application developed as part of
-the **Data Analysis and Visualization** course. The project allows users
-to explore a large book catalogue through intuitive search tools,
-interactive dashboards and modern data visualizations.
+An interactive web application that allows users to discover, explore
+and analyse books through an intuitive interface and interactive
+visualizations.
 
-The application was designed to demonstrate practical skills in **data
-processing, visualization, dashboard development and user experience
-design** using Python.
+Developed as part of the **Data Analysis and Visualization** course of
+the **Master's in Data Science Applied to Social Sciences** (University
+of Aveiro).
 
-------------------------------------------------------------------------
-
-## Features
-
-### Book Search
-
--   Search by title
--   Search by author
--   Search by ISBN
-
-### Genre Explorer
-
--   Browse books by literary genre
--   Interactive filtering
--   Detailed book information
-
-### Popular Books
-
--   Discover the most popular books based on community ratings.
-
-### Hidden Gems
-
--   Find highly rated books with relatively few reviews.
-
-### Book Details
-
-Each book page includes:
-
--   Book cover
--   Description
--   Rating
--   Genres
--   Goodreads link
--   Purchase links (Wook, Bertrand and Fnac)
--   Interactive map of Portuguese public libraries (OpenStreetMap)
-
-### Insights & Trends
-
-Interactive visualizations including:
-
--   Genre popularity
--   Genre quality comparison
--   Volume vs Rating analysis
--   Popularity vs Rating scatter plot
-
-### User Suggestions
-
-Users can submit suggestions for new books directly from the
-application.
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas)
+![Apache ECharts](https://img.shields.io/badge/Apache-ECharts-orange)
+![PyDeck](https://img.shields.io/badge/PyDeck-Maps-success)
 
 ------------------------------------------------------------------------
 
-## Dataset
+# Project Overview
 
-This project is based on the **Goodreads Books Dataset**.
+Biblioteca 2.0 is an interactive digital library built with **Python**
+and **Streamlit**.
 
-The original implementation was developed using approximately **100,000
+Users can:
+
+-   Search books by title, author or ISBN
+-   Browse books by genre
+-   Discover the most popular books
+-   Find hidden gems
+-   Explore interactive visualizations
+-   Locate Portuguese public libraries through OpenStreetMap
+-   Compare purchase options from online bookstores
+
+The application combines data exploration with modern visualization
+techniques to provide an engaging reading discovery experience.
+
+------------------------------------------------------------------------
+
+# Features
+
+  Feature             Description
+  ------------------- ---------------------------------------------
+  Smart Search        Search by title, author or ISBN
+  Genre Explorer      Browse books by literary genre
+  Popular Books       Ranking of the most popular books
+  Hidden Gems         Highly rated books with fewer reviews
+  Insights & Trends   Interactive ECharts visualizations
+  Library Map         Portuguese public libraries (OpenStreetMap)
+  External Links      Goodreads, Wook, Bertrand and Fnac
+
+------------------------------------------------------------------------
+
+# Dataset
+
+The original application was developed using the **Goodreads 100k Books
+Dataset**.
+
+To keep this repository lightweight and easy to clone, this public
+version includes a representative subset of approximately **20,000
 books**.
 
-To keep this repository lightweight and easy to reproduce, the public
-version includes a **representative subset of approximately 20,000
-books**.
-
-This reduction significantly decreases repository size while preserving
-the application's functionality and analytical capabilities.
-
-> **Note:** The dataset included in this repository is intended for
-> demonstration purposes.
+This reduction preserves every application feature while significantly
+reducing repository size.
 
 ------------------------------------------------------------------------
 
-## Technologies
+# Technologies
 
 -   Python
 -   Streamlit
@@ -94,71 +77,63 @@ the application's functionality and analytical capabilities.
 
 ------------------------------------------------------------------------
 
-## Project Structure
+# Project Structure
 
 ``` text
 Biblioteca-2.0/
+│
 ├── app.py
 ├── requirements.txt
-├── Notebook_Biblioteca2.0.ipynb
+├── GoodReads_20k_books.csv
 ├── source/
-│   ├── __init__.py
 │   ├── data.py
-│   ├── functions.py
-│   └── GoodReads_100k_books.csv
+│   └── functions.py
+├── notebook/
+│   └── Biblioteca.ipynb
 └── README.md
 ```
 
 ------------------------------------------------------------------------
 
-## Installation
+# Installation
 
 ``` bash
-git clone https://github.com/FilipaMFSantos/Biblioteca-2.0.git
-cd Biblioteca-2.0
+git clone https://github.com/<your-user>/biblioteca-2.0.git
+
+cd biblioteca-2.0
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 
 ------------------------------------------------------------------------
 
-## Learning Objectives
+# Future Improvements
 
-This project demonstrates practical applications of:
-
--   Data cleaning and preprocessing
--   Data exploration
--   Interactive dashboards
--   Information visualization
--   Geographic visualization
--   External API integration
--   User interface development
--   Data storytelling
-
-------------------------------------------------------------------------
-
-## Future Improvements
-
--   Personalized recommendation engine
--   User authentication
--   Personal reading lists
--   Advanced filtering
+-   Book recommendation engine
+-   User accounts
+-   Reading lists
+-   Machine learning recommendations
 -   Library availability search
--   Machine Learning recommendations
 
 ------------------------------------------------------------------------
 
-## Author
+# Author
 
-**Filipa Costa**
+**Filipa Santos**
 
-Master's in Data Science Applied to Social Sciences\
+Master's in Data Science Applied to Social Sciences
+
 University of Aveiro
 
-GitHub: https://github.com/FilipaMFSantos
+Finance • Data Analytics • Business Intelligence
+
+GitHub: https://github.com/`<your-user>`{=html}
 
 ------------------------------------------------------------------------
 
 ## License
 
-This repository is intended for educational and portfolio purposes.
+This project was developed for academic purposes as part of the Master's
+programme at the University of Aveiro.
